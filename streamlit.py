@@ -8,7 +8,7 @@ import numpy as np
 model = joblib.load('XGboost_churn.pkl')
 
 def main():
-    st.title('Machine Learning Model Deployment')
+    st.title('Model Deployment UTS')
     age = st.number_input('Age :',value = 1)
     gender = st.radio('Gender',["Male", "Female"])
     gender_enc = None
